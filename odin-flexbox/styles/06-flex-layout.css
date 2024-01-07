@@ -5,6 +5,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /* I did */
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +20,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  /* I did */
+  padding: 8px;
 }
 
 input {
@@ -24,4 +30,41 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+/* I did */
+.content {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;  
+  padding: 0;
+  margin: 16px;
+}
+
+a {
+  margin: 8px;
+  text-decoration: none;
+  color: black;
 }
